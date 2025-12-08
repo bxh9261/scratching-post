@@ -2,6 +2,7 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 #
+3D_Animation_Final/[Ll]ibrary/
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/

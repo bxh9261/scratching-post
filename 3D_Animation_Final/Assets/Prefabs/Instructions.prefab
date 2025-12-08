@@ -1,0 +1,1954 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &96922712711159219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2215277824833011089}
+  - component: {fileID: 1177291636581400189}
+  - component: {fileID: 7805332805244690682}
+  m_Layer: 0
+  m_Name: Robot Face
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2215277824833011089
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96922712711159219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 622216753019119625}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.35, y: 0.28}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1177291636581400189
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96922712711159219}
+  m_CullTransparentMesh: 1
+--- !u!114 &7805332805244690682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96922712711159219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 65c9ee9b49c1fc04ea1ea0a79d2e568d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &280701222005761451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6361177685754105383}
+  - component: {fileID: 5894444458466178862}
+  - component: {fileID: 6668421395755496109}
+  m_Layer: 0
+  m_Name: Instructions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6361177685754105383
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280701222005761451}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 622216753019119625}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.45, y: 0.28}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5894444458466178862
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280701222005761451}
+  m_CullTransparentMesh: 1
+--- !u!114 &6668421395755496109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280701222005761451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: The error is caused by trying to add a TextMeshPro component to a GameObject
+    that already has an Image component (such as a UI Panel or Button). Unity does
+    not allow multiple Graphic components (e.g., Image, TextMeshProUGUI, RawImage)
+    on the same GameObject.
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294770614
+  m_fontColor: {r: 0.7122642, g: 1, b: 0.9879961, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 0.025
+  m_fontSizeBase: 0.025
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 0.025
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &3580140437371377735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4629118877129048437}
+  - component: {fileID: 9080427123674127804}
+  - component: {fileID: 8358985000309358029}
+  - component: {fileID: 3879945837616114644}
+  - component: {fileID: 5369421065318446858}
+  - component: {fileID: 6363707198405373614}
+  - component: {fileID: 7873099506729534092}
+  - component: {fileID: 7498034604261225486}
+  m_Layer: 0
+  m_Name: Instructions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4629118877129048437
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3580140437371377735}
+  m_LocalRotation: {x: -0.004847189, y: -0.0021536378, z: -0.000016392441, w: 0.999986}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 622216753019119625}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: -0.555, y: -0.247, z: -0.001}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.5, y: 0.33}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!223 &9080427123674127804
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3580140437371377735}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!114 &8358985000309358029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3580140437371377735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!114 &3879945837616114644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3580140437371377735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!222 &5369421065318446858
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3580140437371377735}
+  m_CullTransparentMesh: 1
+--- !u!114 &6363707198405373614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3580140437371377735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &7873099506729534092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3580140437371377735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de02d5030f1e84a42a9db4ceae9d61d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerCamera: {fileID: 0}
+  distanceFromPlayer: 1
+  heightOffset: 0.25
+  horizontalOffset: 0.45
+  smoothSpeed: 20
+  toggleKey: 120
+  strings: {fileID: 11400000, guid: 3ea625d019cb8444e99e8fb7db784441, type: 2}
+  stepKeyPrefix: step.
+  instructionText: {fileID: 6668421395755496109}
+  nonActionStepDelay: 0.5
+  steps:
+  - stepName: BrokenGlass
+    narrationClip: {fileID: 8300000, guid: 7d036e385f1da6f43aed3e55355c56fa, type: 3}
+    instruction: 'Oh no ! You''ve broken glass. '
+    actionComplete: 1
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: PutOnGlovesSpills
+    narrationClip: {fileID: 8300000, guid: c8adbf331519840429419fd9dedc2f39, type: 3}
+    instruction: Gloves should be put on before handling any spills or contaminated
+      glass.
+    actionComplete: 1
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: GrabBroom
+    narrationClip: {fileID: 8300000, guid: 2a9fe0406cf11d04a8c093ad136c1937, type: 3}
+    instruction: Locate the broom and dustpan, so you can pick up the glass without
+      touching it with your hands.
+    actionComplete: 1
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: UseBroom
+    narrationClip: {fileID: 8300000, guid: cdc84b567987ad64babfbbfd0645243e, type: 3}
+    instruction: Use the broom to pick up the glass off the floor.
+    actionComplete: 1
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: SharpsContainer
+    narrationClip: {fileID: 8300000, guid: b005c093821d9ed45b8a4851dbf75d8b, type: 3}
+    instruction: Let's dispose of this broken glass in the sharps container. If it
+      was contaminated by hazardous waste, it should be disposed in the larger Contaminated
+      Glass container on the floor.
+    actionComplete: 1
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: SharpsInformation
+    narrationClip: {fileID: 8300000, guid: bbce60a664afa0048830fc910cbbab83, type: 3}
+    instruction: "Sharp objects must be disposed of in a puncture-proof container
+      to prevent spills and injuries. Improper disposal can harm custodial staff
+      and others handling waste. The broken glass box is disposed of as regular trash
+      after being taped shut. \n\nClick to proceed."
+    actionComplete: 1
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: AcidSpillExists
+    narrationClip: {fileID: 8300000, guid: a415d07a69a14024ca3fa8d47666d6f8, type: 3}
+    instruction: Looks like there's an acid spill on the floor. In the lab, you should
+      check the SDS to determine how to neutralize the spill before cleaning it up.
+      In this case, we will assume the solution contains hydrochloric acid, and use
+      sodium bicarbonate to clean up the spill. Locate the sodium bicarbonate.
+    actionComplete: 1
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: UseSodiumBicarbonate
+    narrationClip: {fileID: 8300000, guid: 178350de38f2662459cd15e0cd2bc1d1, type: 3}
+    instruction: Spread the sodium bicarbonate over the acid spill to neutralize
+      the acid.
+    actionComplete: 1
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: CleanWithRag
+    narrationClip: {fileID: 8300000, guid: 58ada2cde9b92374fad40fc952272133, type: 3}
+    instruction: 'Now that the acid has been neutralized, it can be safely wiped
+      up with an absorbent pad. '
+    actionComplete: 1
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: ChemicalWasteBin
+    narrationClip: {fileID: 8300000, guid: 7396e3e012c9d544da4a1ac997646b88, type: 3}
+    instruction: Since the absorbent pad and your gloves are contaminated with chemical
+      waste, they must be disposed of in the chemical waste bin.
+    actionComplete: 1
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: WashHandsAfterSpill
+    narrationClip: {fileID: 8300000, guid: aed0ebdd5c79a3846a4accedb26c6cdd, type: 3}
+    instruction: Magnificent! We've successfully cleaned up a spill! Return to the
+      sink to re-wash your hands.
+    actionComplete: 1
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: Welcome
+    narrationClip: {fileID: 8300000, guid: 90309c2f45731ee46b808bcfb0367619, type: 3}
+    instruction: 'Welcome to the McGill University Virtual Lab Space.
+
+
+      Click
+      anywhere to proceed.'
+    actionComplete: 0
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: Controls
+    narrationClip: {fileID: 8300000, guid: 186f2da83c4745d4180dbcf9be518d2a, type: 3}
+    instruction: 'Controls: Use WASD to move, mouse to look around. Press X to hide
+      or show this guide at any time.
+
+
+      Click anywhere to proceed.'
+    actionComplete: 0
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: SafetyGoggles
+    narrationClip: {fileID: 8300000, guid: b03f7e4f6a6d66b42b3f0adb9b35ae07, type: 3}
+    instruction: Equip safety goggles by clicking on them.
+    actionComplete: 0
+    actionType: 1
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions:
+    - type: 2
+      objectToMove: {fileID: 0}
+      moveDirection: {x: 0, y: 0, z: 0}
+      moveDistance: 0
+      worldObject: {fileID: 0}
+      playerObject: {fileID: 0}
+      objectToMakeVisible: {fileID: 0}
+      objectToDestroy: {fileID: 0}
+      tagToDestroy: 
+      stepToMarkIncomplete: 
+      postActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+  - stepName: LabCoat
+    narrationClip: {fileID: 8300000, guid: 337b4a430132476429051c1b6673ea61, type: 3}
+    instruction: Equip lab coat by clicking on it.
+    actionComplete: 0
+    actionType: 1
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions:
+    - type: 2
+      objectToMove: {fileID: 0}
+      moveDirection: {x: 0, y: 0, z: 0}
+      moveDistance: 0
+      worldObject: {fileID: 0}
+      playerObject: {fileID: 0}
+      objectToMakeVisible: {fileID: 0}
+      objectToDestroy: {fileID: 0}
+      tagToDestroy: 
+      stepToMarkIncomplete: 
+      postActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - type: 4
+      objectToMove: {fileID: 0}
+      moveDirection: {x: 0, y: 0, z: 0}
+      moveDistance: 0
+      worldObject: {fileID: 0}
+      playerObject: {fileID: 0}
+      objectToMakeVisible: {fileID: 0}
+      objectToDestroy: {fileID: 0}
+      tagToDestroy: 
+      stepToMarkIncomplete: 
+      postActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+  - stepName: LookingGood
+    narrationClip: {fileID: 8300000, guid: 3f369bbbee945c64993856f36588ee49, type: 3}
+    instruction: 'Looking good! Now let''s explore the lab to look for different
+      pieces of safety equipment.
+
+
+
+      Click to proceed.'
+    actionComplete: 0
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: WashHands
+    narrationClip: {fileID: 8300000, guid: 8d0b0d85307fcd4499a091b5f5e6fe39, type: 3}
+    instruction: Walk towards the sink and click it to wash your hands.
+    actionComplete: 0
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: ToBunsen
+    narrationClip: {fileID: 8300000, guid: 5d9495ecea031a5419af92b3866e8b5c, type: 3}
+    instruction: Go to the Bunsen burner station.
+    actionComplete: 0
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: RemoveClutter
+    narrationClip: {fileID: 8300000, guid: de5cf688617ab084b89c09c4b68dc8a7, type: 3}
+    instruction: This table is cluttered. Click the papers to remove them.
+    actionComplete: 0
+    actionType: 1
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions:
+    - type: 4
+      objectToMove: {fileID: 0}
+      moveDirection: {x: 0, y: 0, z: 0}
+      moveDistance: 0
+      worldObject: {fileID: 0}
+      playerObject: {fileID: 0}
+      objectToMakeVisible: {fileID: 0}
+      objectToDestroy: {fileID: 0}
+      tagToDestroy: 
+      stepToMarkIncomplete: 
+      postActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+  - stepName: BunsenGloveRemoval
+    narrationClip: {fileID: 8300000, guid: 92e29e89d16364a458d74d11f22c2ed0, type: 3}
+    instruction: "Gloves can melt or catch fire when exposed to a Bunsen burner\u2019s
+      flame, causing severe burns. Use dry hands instead. Click to remove your gloves."
+    actionComplete: 1
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: ClickNozzle
+    narrationClip: {fileID: 8300000, guid: 9c287cd37c8c82e45b7660de8f483c06, type: 3}
+    instruction: Great! Now locate the gas nozzle and click it.
+    actionComplete: 0
+    actionType: 1
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: BunsenInfo
+    narrationClip: {fileID: 8300000, guid: c10f309b31e7a5f478a8796b84e1e832, type: 3}
+    instruction: "The most important thing is to prevent unburned gas from escaping
+      the Bunsen burner. \n\nClick to proceed."
+    actionComplete: 0
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: GasInfo
+    narrationClip: {fileID: 8300000, guid: 9e945496f3e22814c8cd88bcdb5f155a, type: 3}
+    instruction: "If you see a gas valve running, turn it off immediately. If it's
+      been running for a while, leave the area, notify your lab supervisor, and do
+      NOT light any fires. \n\nClick to proceed."
+    actionComplete: 0
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: MoveTube
+    narrationClip: {fileID: 8300000, guid: 9ecdcfe9bfdf1e2488a791b4c39ab9fd, type: 3}
+    instruction: Click the end of the rubber tube to inspect it for holes. Gas escaping
+      from holes can also cause a gas leak. If it is undamaged, drag your mouse to
+      attach it to the bunsen burner.
+    actionComplete: 0
+    actionType: 2
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: TurnOnNozzle
+    narrationClip: {fileID: 8300000, guid: 2c8c214e0d6a23849adce9efe54fd17b, type: 3}
+    instruction: Excellent! Now click on the nozzle to turn on the gas. Remember
+      that gas is leaking whenever the gas is on and the burner is not lit (even
+      when it's plugged in) so have the welding spark lighter ready to go immediately.
+      Here we will spark it for you.
+    actionComplete: 0
+    actionType: 1
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions:
+    - type: 3
+      objectToMove: {fileID: 0}
+      moveDirection: {x: 0, y: 0, z: 0}
+      moveDistance: 0
+      worldObject: {fileID: 0}
+      playerObject: {fileID: 0}
+      objectToMakeVisible: {fileID: 0}
+      objectToDestroy: {fileID: 0}
+      tagToDestroy: 
+      stepToMarkIncomplete: 
+      postActionEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: 
+            m_MethodName: 
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - stepName: BlueFlame
+    narrationClip: {fileID: 8300000, guid: 212b9141689a9414c9c8ccaabc0aa47f, type: 3}
+    instruction: To produce a hotter flame, find the knob on the bunsen burner and
+      rotate it until it is blue.
+    actionComplete: 0
+    actionType: 1
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions:
+    - type: 4
+      objectToMove: {fileID: 0}
+      moveDirection: {x: 0, y: 0, z: 0}
+      moveDistance: 0
+      worldObject: {fileID: 0}
+      playerObject: {fileID: 0}
+      objectToMakeVisible: {fileID: 0}
+      objectToDestroy: {fileID: 0}
+      tagToDestroy: 
+      stepToMarkIncomplete: 
+      postActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - type: 3
+      objectToMove: {fileID: 0}
+      moveDirection: {x: 0, y: 0, z: 0}
+      moveDistance: 0
+      worldObject: {fileID: 0}
+      playerObject: {fileID: 0}
+      objectToMakeVisible: {fileID: 0}
+      objectToDestroy: {fileID: 0}
+      tagToDestroy: 
+      stepToMarkIncomplete: 
+      postActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+  - stepName: TurnOffNozzle
+    narrationClip: {fileID: 8300000, guid: 8f5b1d877dcb15d48a6b818f1227a08a, type: 3}
+    instruction: That's all we'll do for now. Click the nozzle again to turn off
+      the gas and the bunsen burner.
+    actionComplete: 0
+    actionType: 1
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions:
+    - type: 4
+      objectToMove: {fileID: 0}
+      moveDirection: {x: 0, y: 0, z: 0}
+      moveDistance: 0
+      worldObject: {fileID: 0}
+      playerObject: {fileID: 0}
+      objectToMakeVisible: {fileID: 0}
+      objectToDestroy: {fileID: 0}
+      tagToDestroy: 
+      stepToMarkIncomplete: 
+      postActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+  - stepName: Ethanol
+    narrationClip: {fileID: 8300000, guid: 5750dcb31140e3d489d01739ece1382e, type: 3}
+    instruction: 'After working at a station, the table can be wiped down with an
+      ethanol solution. Do NOT spray it while the bunsen burner is running.
+
+
+      Click
+      to proceed.'
+    actionComplete: 0
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: ToCentrifuge
+    narrationClip: {fileID: 8300000, guid: 30e3746493b74744f95662428e8f1dbc, type: 3}
+    instruction: Great work! Let's continue. Let's go find the centrifuge station.
+    actionComplete: 0
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: PutOnGloves
+    narrationClip: {fileID: 8300000, guid: 81d58c6a1410d1f4ba42355667f8486c, type: 3}
+    instruction: Handling chemicals will require gloves. Click the glove box to equip
+      them.
+    actionComplete: 0
+    actionType: 1
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions:
+    - type: 3
+      objectToMove: {fileID: 0}
+      moveDirection: {x: 0, y: 0, z: 0}
+      moveDistance: 0
+      worldObject: {fileID: 0}
+      playerObject: {fileID: 0}
+      objectToMakeVisible: {fileID: 0}
+      objectToDestroy: {fileID: 0}
+      tagToDestroy: 
+      stepToMarkIncomplete: 
+      postActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - type: 3
+      objectToMove: {fileID: 0}
+      moveDirection: {x: 0, y: 0, z: 0}
+      moveDistance: 0
+      worldObject: {fileID: 0}
+      playerObject: {fileID: 0}
+      objectToMakeVisible: {fileID: 0}
+      objectToDestroy: {fileID: 0}
+      tagToDestroy: 
+      stepToMarkIncomplete: 
+      postActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+    - type: 7
+      objectToMove: {fileID: 0}
+      moveDirection: {x: 0, y: 0, z: 0}
+      moveDistance: 0
+      worldObject: {fileID: 0}
+      playerObject: {fileID: 0}
+      objectToMakeVisible: {fileID: 0}
+      objectToDestroy: {fileID: 0}
+      tagToDestroy: 
+      stepToMarkIncomplete: 
+      postActionEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: CentrifugeController, Assembly-CSharp
+            m_MethodName: StartCentrifuge
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - stepName: BalanceCentrifuge
+    narrationClip: {fileID: 8300000, guid: 9da4d52b3d6113041b1997ab3b414e3b, type: 3}
+    instruction: 'It looks like this centrifuge is imbalanced. An unbalanced centrifuge
+      can shake violently, causing mechanical failure, sample spillage, or even breakage.
+      This can lead to contamination, equipment damage, and injury from flying debris.
+      Click it to see it balanced. '
+    actionComplete: 0
+    actionType: 1
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions:
+    - type: 7
+      objectToMove: {fileID: 0}
+      moveDirection: {x: 0, y: 0, z: 0}
+      moveDistance: 0
+      worldObject: {fileID: 0}
+      playerObject: {fileID: 0}
+      objectToMakeVisible: {fileID: 0}
+      objectToDestroy: {fileID: 0}
+      tagToDestroy: 
+      stepToMarkIncomplete: 
+      postActionEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: CentrifugeController, Assembly-CSharp
+            m_MethodName: BalanceCentrifuge
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: CentrifugeController, Assembly-CSharp
+            m_MethodName: 
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: 
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - stepName: BalanceWeight
+    narrationClip: {fileID: 8300000, guid: 6e7d4a3c7dee29747a13ddab02ff0512, type: 3}
+    instruction: Weight must be evenly distributed in the centrifuge for it to function
+      properly. The centrifuge will be closed when running in the lab, but we've
+      left it open here to see the inner workings. Click to turn off the centrifuge.
+    actionComplete: 0
+    actionType: 1
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions:
+    - type: 7
+      objectToMove: {fileID: 0}
+      moveDirection: {x: 0, y: 0, z: 0}
+      moveDistance: 0
+      worldObject: {fileID: 0}
+      playerObject: {fileID: 0}
+      objectToMakeVisible: {fileID: 0}
+      objectToDestroy: {fileID: 0}
+      tagToDestroy: 
+      stepToMarkIncomplete: 
+      postActionEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 0}
+            m_TargetAssemblyTypeName: CentrifugeController, Assembly-CSharp
+            m_MethodName: StopCentrifuge
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - stepName: ThirdTube
+    narrationClip: {fileID: 8300000, guid: 82dc1b59eb0ec3a44b3ff8a0b83d71a3, type: 3}
+    instruction: This lab exercise will require 3 tubes of solution. Let's add another
+      tube of solution to the centrifuge. Drag a yellow tube to the spinner.
+    actionComplete: 0
+    actionType: 2
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: WaterTube
+    narrationClip: {fileID: 8300000, guid: beeea542d3f7a0a43a9e1578005f5b56, type: 3}
+    instruction: It may be hard to properly balance the weight with an odd number
+      of tubes. The purple tubes contain water with a similar volume to the tubes
+      of solution. Add a purple water tube to the centrifuge,
+    actionComplete: 0
+    actionType: 2
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  - stepName: BreakGlass
+    narrationClip: {fileID: 8300000, guid: 5dce47b2569ab3547b150a428b9f60ef, type: 3}
+    instruction: Great work! Now let's simulate an accident so we can learn how to
+      deal with it. Pick up a test tube and drop it on the floor. This, of course,
+      should not be done in a real lab.
+    actionComplete: 0
+    actionType: 0
+    targetObject: {fileID: 0}
+    customActionEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    postActions: []
+  instructionGroups:
+  - groupName: Welcome
+    isEnabled: 1
+    steps:
+    - stepName: Welcome
+      narrationClip: {fileID: 8300000, guid: 90309c2f45731ee46b808bcfb0367619, type: 3}
+      instruction: 'Welcome to the McGill University Virtual Lab Space.
+
+
+        Click
+        anywhere to proceed.'
+      actionComplete: 0
+      actionType: 0
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+    - stepName: Controls
+      narrationClip: {fileID: 8300000, guid: 186f2da83c4745d4180dbcf9be518d2a, type: 3}
+      instruction: 'Controls: Use WASD to move, mouse to look around. Press X to
+        hide or show this guide at any time.
+
+
+        Click anywhere to proceed.'
+      actionComplete: 0
+      actionType: 0
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+    - stepName: SafetyGoggles
+      narrationClip: {fileID: 8300000, guid: b03f7e4f6a6d66b42b3f0adb9b35ae07, type: 3}
+      instruction: Equip safety goggles by clicking on them.
+      actionComplete: 0
+      actionType: 1
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions:
+      - type: 2
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+    - stepName: LabCoat
+      narrationClip: {fileID: 8300000, guid: 337b4a430132476429051c1b6673ea61, type: 3}
+      instruction: Equip lab coat by clicking on it.
+      actionComplete: 0
+      actionType: 1
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions:
+      - type: 2
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+      - type: 4
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+    - stepName: LookingGood
+      narrationClip: {fileID: 8300000, guid: 3f369bbbee945c64993856f36588ee49, type: 3}
+      instruction: 'Looking good! Now let''s explore the lab to look for different
+        pieces of safety equipment.
+
+
+
+        Click to proceed.'
+      actionComplete: 0
+      actionType: 0
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+    - stepName: WashHands
+      narrationClip: {fileID: 8300000, guid: 8d0b0d85307fcd4499a091b5f5e6fe39, type: 3}
+      instruction: Walk towards the sink and click it to wash your hands.
+      actionComplete: 0
+      actionType: 0
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+  - groupName: BunsenBurner
+    isEnabled: 0
+    steps:
+    - stepName: ToBunsen
+      narrationClip: {fileID: 8300000, guid: 5d9495ecea031a5419af92b3866e8b5c, type: 3}
+      instruction: Go to the Bunsen burner station.
+      actionComplete: 0
+      actionType: 0
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+    - stepName: RemoveClutter
+      narrationClip: {fileID: 8300000, guid: de5cf688617ab084b89c09c4b68dc8a7, type: 3}
+      instruction: This table is cluttered. Click the papers to remove them.
+      actionComplete: 0
+      actionType: 1
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions:
+      - type: 4
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+    - stepName: BunsenGloveRemoval
+      narrationClip: {fileID: 8300000, guid: 92e29e89d16364a458d74d11f22c2ed0, type: 3}
+      instruction: "Gloves can melt or catch fire when exposed to a Bunsen burner\u2019s
+        flame, causing severe burns. Use dry hands instead. Click to remove your
+        gloves."
+      actionComplete: 1
+      actionType: 0
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+    - stepName: ClickNozzle
+      narrationClip: {fileID: 8300000, guid: 9c287cd37c8c82e45b7660de8f483c06, type: 3}
+      instruction: Great! Now locate the gas nozzle and click it.
+      actionComplete: 0
+      actionType: 1
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+    - stepName: BunsenInfo
+      narrationClip: {fileID: 8300000, guid: c10f309b31e7a5f478a8796b84e1e832, type: 3}
+      instruction: "The most important thing is to prevent unburned gas from escaping
+        the Bunsen burner. \n\nClick to proceed."
+      actionComplete: 0
+      actionType: 0
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+    - stepName: GasInfo
+      narrationClip: {fileID: 8300000, guid: 9e945496f3e22814c8cd88bcdb5f155a, type: 3}
+      instruction: "If you see a gas valve running, turn it off immediately. If it's
+        been running for a while, leave the area, notify your lab supervisor, and
+        do NOT light any fires. \n\nClick to proceed."
+      actionComplete: 0
+      actionType: 0
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+    - stepName: MoveTube
+      narrationClip: {fileID: 8300000, guid: 9ecdcfe9bfdf1e2488a791b4c39ab9fd, type: 3}
+      instruction: Click the end of the rubber tube to inspect it for holes. Gas
+        escaping from holes can also cause a gas leak. If it is undamaged, drag your
+        mouse to attach it to the bunsen burner.
+      actionComplete: 0
+      actionType: 2
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+    - stepName: TurnOnNozzle
+      narrationClip: {fileID: 8300000, guid: 2c8c214e0d6a23849adce9efe54fd17b, type: 3}
+      instruction: Excellent! Now click on the nozzle to turn on the gas. Remember
+        that gas is leaking whenever the gas is on and the burner is not lit (even
+        when it's plugged in) so have the welding spark lighter ready to go immediately.
+        Here we will spark it for you.
+      actionComplete: 0
+      actionType: 1
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions:
+      - type: 3
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 0}
+              m_TargetAssemblyTypeName: 
+              m_MethodName: 
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: 
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+    - stepName: BlueFlame
+      narrationClip: {fileID: 8300000, guid: 212b9141689a9414c9c8ccaabc0aa47f, type: 3}
+      instruction: To produce a hotter flame, find the knob on the bunsen burner
+        and rotate it until it is blue.
+      actionComplete: 0
+      actionType: 1
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions:
+      - type: 4
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+      - type: 3
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+    - stepName: TurnOffNozzle
+      narrationClip: {fileID: 8300000, guid: 8f5b1d877dcb15d48a6b818f1227a08a, type: 3}
+      instruction: That's all we'll do for now. Click the nozzle again to turn off
+        the gas and the bunsen burner.
+      actionComplete: 0
+      actionType: 1
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions:
+      - type: 4
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+    - stepName: Ethanol
+      narrationClip: {fileID: 8300000, guid: 5750dcb31140e3d489d01739ece1382e, type: 3}
+      instruction: 'After working at a station, the table can be wiped down with
+        an ethanol solution. Do NOT spray it while the bunsen burner is running.
+
+
+        Click
+        to proceed.'
+      actionComplete: 0
+      actionType: 0
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+  - groupName: Centrifuge
+    isEnabled: 0
+    steps:
+    - stepName: ToCentrifuge
+      narrationClip: {fileID: 8300000, guid: 30e3746493b74744f95662428e8f1dbc, type: 3}
+      instruction: Great work! Let's continue. Let's go find the centrifuge station.
+      actionComplete: 0
+      actionType: 0
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+    - stepName: PutOnGloves
+      narrationClip: {fileID: 8300000, guid: 81d58c6a1410d1f4ba42355667f8486c, type: 3}
+      instruction: Handling chemicals will require gloves. Click the glove box to
+        equip them.
+      actionComplete: 0
+      actionType: 1
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions:
+      - type: 3
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+      - type: 3
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+      - type: 7
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 0}
+              m_TargetAssemblyTypeName: CentrifugeController, Assembly-CSharp
+              m_MethodName: StartCentrifuge
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+    - stepName: BalanceCentrifuge
+      narrationClip: {fileID: 8300000, guid: 9da4d52b3d6113041b1997ab3b414e3b, type: 3}
+      instruction: 'It looks like this centrifuge is imbalanced. An unbalanced centrifuge
+        can shake violently, causing mechanical failure, sample spillage, or even
+        breakage. This can lead to contamination, equipment damage, and injury from
+        flying debris. Click it to see it balanced. '
+      actionComplete: 0
+      actionType: 1
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions:
+      - type: 7
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 0}
+              m_TargetAssemblyTypeName: CentrifugeController, Assembly-CSharp
+              m_MethodName: BalanceCentrifuge
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+            - m_Target: {fileID: 0}
+              m_TargetAssemblyTypeName: CentrifugeController, Assembly-CSharp
+              m_MethodName: 
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: 
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+    - stepName: BalanceWeight
+      narrationClip: {fileID: 8300000, guid: 6e7d4a3c7dee29747a13ddab02ff0512, type: 3}
+      instruction: Weight must be evenly distributed in the centrifuge for it to
+        function properly. The centrifuge will be closed when running in the lab,
+        but we've left it open here to see the inner workings. Click to turn off
+        the centrifuge.
+      actionComplete: 0
+      actionType: 1
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions:
+      - type: 7
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls:
+            - m_Target: {fileID: 0}
+              m_TargetAssemblyTypeName: CentrifugeController, Assembly-CSharp
+              m_MethodName: StopCentrifuge
+              m_Mode: 1
+              m_Arguments:
+                m_ObjectArgument: {fileID: 0}
+                m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+                m_IntArgument: 0
+                m_FloatArgument: 0
+                m_StringArgument: 
+                m_BoolArgument: 0
+              m_CallState: 2
+    - stepName: ThirdTube
+      narrationClip: {fileID: 8300000, guid: 82dc1b59eb0ec3a44b3ff8a0b83d71a3, type: 3}
+      instruction: This lab exercise will require 3 tubes of solution. Let's add
+        another tube of solution to the centrifuge. Drag a yellow tube to the spinner.
+      actionComplete: 0
+      actionType: 2
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions:
+      - type: 3
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+    - stepName: WaterTube
+      narrationClip: {fileID: 8300000, guid: beeea542d3f7a0a43a9e1578005f5b56, type: 3}
+      instruction: It may be hard to properly balance the weight with an odd number
+        of tubes. The purple tubes contain water with a similar volume to the tubes
+        of solution. Add a purple water tube to the centrifuge,
+      actionComplete: 0
+      actionType: 2
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions:
+      - type: 3
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+  - groupName: SpillCleanup
+    isEnabled: 1
+    steps:
+    - stepName: BreakGlass
+      narrationClip: {fileID: 8300000, guid: 5dce47b2569ab3547b150a428b9f60ef, type: 3}
+      instruction: Great work! Now let's simulate an accident so we can learn how
+        to deal with it. Pick up a test tube and drop it on the floor. This, of course,
+        should not be done in a real lab.
+      actionComplete: 0
+      actionType: 0
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+    - stepName: BrokenGlass
+      narrationClip: {fileID: 8300000, guid: 7d036e385f1da6f43aed3e55355c56fa, type: 3}
+      instruction: Oh no ! You've broken glass. Let's handle how to dispose of it
+        safely.
+      actionComplete: 0
+      actionType: 0
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+    - stepName: PutOnGlovesSpills
+      narrationClip: {fileID: 8300000, guid: c8adbf331519840429419fd9dedc2f39, type: 3}
+      instruction: Gloves should be put on before handling any spills or contaminated
+        glass.
+      actionComplete: 0
+      actionType: 1
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions:
+      - type: 3
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+      - type: 3
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+    - stepName: GrabBroom
+      narrationClip: {fileID: 8300000, guid: 2a9fe0406cf11d04a8c093ad136c1937, type: 3}
+      instruction: Locate the broom and dustpan, so you can pick up the glass without
+        touching it with your hands.
+      actionComplete: 0
+      actionType: 0
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions:
+      - type: 2
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+      - type: 2
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+    - stepName: UseBroom
+      narrationClip: {fileID: 8300000, guid: cdc84b567987ad64babfbbfd0645243e, type: 3}
+      instruction: Use the broom to pick up the glass off the floor.
+      actionComplete: 0
+      actionType: 0
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions:
+      - type: 3
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+    - stepName: SharpsContainer
+      narrationClip: {fileID: 8300000, guid: b005c093821d9ed45b8a4851dbf75d8b, type: 3}
+      instruction: Let's dispose of this broken glass in the sharps container. If
+        it was contaminated by hazardous waste, it should be disposed in the larger
+        Contaminated Glass container on the floor.
+      actionComplete: 0
+      actionType: 1
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+    - stepName: SharpsInformation
+      narrationClip: {fileID: 8300000, guid: bbce60a664afa0048830fc910cbbab83, type: 3}
+      instruction: "Sharp objects must be disposed of in a puncture-proof container
+        to prevent spills and injuries. Improper disposal can harm custodial staff
+        and others handling waste. The broken glass box is disposed of as regular
+        trash after being taped shut. \n\nClick to proceed."
+      actionComplete: 0
+      actionType: 0
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+    - stepName: AcidSpillExists
+      narrationClip: {fileID: 8300000, guid: a415d07a69a14024ca3fa8d47666d6f8, type: 3}
+      instruction: Looks like there's an acid spill on the floor. In the lab, you
+        should check the SDS to determine how to neutralize the spill before cleaning
+        it up. In this case, we will assume the solution contains hydrochloric acid,
+        and use sodium bicarbonate to clean up the spill. Locate the sodium bicarbonate.
+      actionComplete: 0
+      actionType: 1
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions:
+      - type: 2
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+    - stepName: UseSodiumBicarbonate
+      narrationClip: {fileID: 8300000, guid: 178350de38f2662459cd15e0cd2bc1d1, type: 3}
+      instruction: Spread the sodium bicarbonate over the acid spill to neutralize
+        the acid.
+      actionComplete: 0
+      actionType: 0
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions:
+      - type: 3
+        objectToMove: {fileID: 0}
+        moveDirection: {x: 0, y: 0, z: 0}
+        moveDistance: 0
+        worldObject: {fileID: 0}
+        playerObject: {fileID: 0}
+        objectToMakeVisible: {fileID: 0}
+        objectToDestroy: {fileID: 0}
+        tagToDestroy: 
+        stepToMarkIncomplete: 
+        postActionEvent:
+          m_PersistentCalls:
+            m_Calls: []
+    - stepName: CleanWithRag
+      narrationClip: {fileID: 8300000, guid: 58ada2cde9b92374fad40fc952272133, type: 3}
+      instruction: 'Now that the acid has been neutralized, it can be safely wiped
+        up with an absorbent pad. '
+      actionComplete: 0
+      actionType: 0
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+    - stepName: ChemicalWasteBin
+      narrationClip: {fileID: 8300000, guid: 7396e3e012c9d544da4a1ac997646b88, type: 3}
+      instruction: Since the absorbent pad and your gloves are contaminated with
+        chemical waste, they must be disposed of in the chemical waste bin.
+      actionComplete: 0
+      actionType: 1
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+    - stepName: WashHandsAfterSpill
+      narrationClip: {fileID: 8300000, guid: aed0ebdd5c79a3846a4accedb26c6cdd, type: 3}
+      instruction: Magnificent! We've successfully cleaned up a spill! Return to
+        the sink to re-wash your hands.
+      actionComplete: 0
+      actionType: 1
+      targetObject: {fileID: 0}
+      customActionEvent:
+        m_PersistentCalls:
+          m_Calls: []
+      postActions: []
+  audioSource: {fileID: 7498034604261225486}
+--- !u!82 &7498034604261225486
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3580140437371377735}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &8599785406889968006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 622216753019119625}
+  - component: {fileID: 3058263972373498328}
+  - component: {fileID: 4249832273360197785}
+  m_Layer: 0
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &622216753019119625
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8599785406889968006}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6361177685754105383}
+  - {fileID: 2215277824833011089}
+  m_Father: {fileID: 4629118877129048437}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0.45, y: 0.28}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3058263972373498328
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8599785406889968006}
+  m_CullTransparentMesh: 1
+--- !u!114 &4249832273360197785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8599785406889968006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.24636889, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
